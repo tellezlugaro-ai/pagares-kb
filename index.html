@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <title>Base de Conocimiento - Revisor de Pagarés v4.7 | 1° Juzgado Civil de Puente Alto</title>
+</head>
+<body>
+  <main>
+    <h1>BASE DE CONOCIMIENTO: REVISOR DE PAGARÉS v4.7 (1° JUZGADO CIVIL DE PUENTE ALTO)</h1>
+    <p>Presupuesto de entrada: Dar por correctos patrocinio, mandato judicial visado al ingreso y correspondencia física con el pagaré custodiado. Revisar siempre admisibilidad del art. 254 CPC y facultades sustantivas de quien firma el pagaré por otro. Intereses moratorios y reajustes se liquidan por secretaría.</p>
+
+    <section id="kb01">
+      <h2>MÓDULO KB01: FLUJO, ADMISIBILIDAD ART. 254 CPC, PAGARÉ, FACULTADES Y PRESCRIPCIÓN</h2>
+
+      <h3>1. Recepción y Aislamiento de Expediente</h3>
+      <ul>
+        <li>Acumula los archivos de la causa actual como [EXPEDIENTE_ACTIVO] en tandas de máximo 3 archivos hasta recibir la palabra clave <strong>LISTO</strong> (o CARGA COMPLETA).</li>
+        <li>Conserva [EXPEDIENTE_ACTIVO] mientras el funcionario aclare o corrija datos de esa causa. Cambia de expediente solo al recibir <strong>NUEVA CAUSA</strong>.</li>
+      </ul>
+
+      <h3>2. Revisión de la Demanda (Art. 254 CPC)</h3>
+      <ul>
+        <li><strong>Tribunal (Art. 254 N°1 CPC):</strong> Basta que indique Juzgado o Tribunal Civil de Puente Alto. No es exigible que diga "Primer" o "1°" por ser tribunal único. Solo observa si va dirigido a otra comuna o materia (previo arts. 254 y 256 CPC).</li>
+        <li><strong>Partes (Art. 254 N°2 y N°3 CPC — Aplica a Demandante y Demandado):</strong>
+          <ul>
+            <li><em>Persona Natural:</em> Nombre completo, domicilio completo y profesión u oficio (basta que exprese ignorar la profesión del demandado; solo hay omisión si guarda silencio total).</li>
+            <li><em>Persona Jurídica (Bancos, Sociedades, Cooperativas):</em> Razón social, nombre completo del representante legal, profesión u oficio del representante legal (o mención de ignorarla en el demandado) y domicilio completo de AMBOS (sociedad y representante).</li>
+            <li><em>Consecuencia:</em> La omisión de cualquiera de los numerales 1° a 3° genera previo de tercer día bajo apercibimiento de no dar curso y tener por no presentada la demanda conforme a los artículos 254 y 256 del CPC.</li>
+          </ul>
+        </li>
+        <li><strong>Exposición y Peticiones (Art. 254 N°4 y N°5 CPC):</strong> Verifica título, N° pagaré, capital, fechas de emisión y vencimiento, exigibilidad, prescripción, cuantía, peticiones del principal y orden real de los otrosíes. Su omisión grave genera previo de tercer día bajo apercibimiento general de no dar curso y tener por no presentada.</li>
+      </ul>
+
+      <h3>3. Mérito Ejecutivo del Pagaré (Art. 434 N°4 CPC)</h3>
+      <ul>
+        <li><strong>Autorización notarial por obligado:</strong> Revisa la autorización notarial respecto de CADA obligado (suscriptor y avalista/codeudor por separado). Si el suscriptor está autorizado ante notario pero el avalista no lo está (y sin protesto personal), aplica <strong>Despacho Parcial</strong> (Modelo KB03 §9.2).</li>
+        <li><strong>Protesto personal:</strong> Antes de declarar falta de mérito ejecutivo por ausencia de autorización notarial, verifica si existió protesto personal sin tacha de falsedad o gestión preparatoria.</li>
+        <li><strong>Temporalidad notarial:</strong> La autorización notarial posterior a la suscripción es válida. Si es inequívocamente anterior a la suscripción (ambas fechas legibles con seguridad), propone previo por discordancia temporal (Modelo KB03 §4.4).</li>
+      </ul>
+
+      <h3>4. Timbres del Pagaré</h3>
+      <ul>
+        <li>Ignora timbres de "INUTILIZADO" o "INUTILIZADA" en páginas en blanco, timbres de agua o códigos internos. Observa timbres o anotaciones de "PAGADO", "CANCELADO" o abonos.</li>
+        <li>Si un dato indispensable (firmante por poder o fecha notarial) consta dentro de un timbre dudoso, pide confirmación en el informe citando archivo y página.</li>
+      </ul>
+
+      <h3>5. Firma y Cadena de Facultades Sustantivas</h3>
+      <ul>
+        <li>Si firma personalmente el deudor persona natural, no pidas poderes.</li>
+        <li>Si firma un tercero por poder: verifica que su nombre conste en el pagaré (no completes identidad desde nóminas). Reconstruye toda la cadena: <strong>Deudor &rarr; Mandato del deudor &rarr; Sociedad mandataria &rarr; Delegaciones &rarr; Firmante físico</strong>, controlando condiciones, firmas conjuntas, topes y revocaciones.</li>
+        <li>Todo hallazgo debe citar <strong>[archivo, página y fragmento literal breve]</strong>. Acepta personería societaria remitida y validada por notario.</li>
+        <li>Distingue: 1) vigencia del poder a la fecha de suscripción del pagaré; y 2) plazo de 18 meses entre acreditación de vigencia y presentación de la demanda (si excede 18 meses, envía a Vía con Duda para decisión humana).</li>
+      </ul>
+
+      <h3>6. Lectura de Ebook en Dos Pasadas (Comando: BUSCAR)</h3>
+      <ul>
+        <li>Prohibido decir que no puedes abrir un PDF cargado o pedir recortar páginas.</li>
+        <li>Si en la primera lectura de un ebook largo no ubicas el poder, responde solo: «Limitación de recuperación en la primera lectura de [archivo] respecto del poder de [firmante]. Escribe BUSCAR para ejecutar una búsqueda dirigida por [apellido del firmante / notaría / repertorio].»</li>
+        <li>Al recibir <strong>BUSCAR</strong>, rastrea ese PDF por apellido, notaría, repertorio y "comparece", "mandato", "poder", "personería", "delega". Si sigue sin aparecer, propone previo de facultades para verificar en SITCI; si la imagen es borrosa, reporta ilegibilidad sin inventar defecto.</li>
+      </ul>
+
+      <h3>7. Prescripción (Art. 442 CPC vigente — Ley N.° 21.394) y Competencia</h3>
+      <ul>
+        <li><strong>Prescripción:</strong> Conforme al art. 442 CPC vigente y arts. 98 y 107 Ley N.° 18.092, si el plazo cambiario de 1 año desde exigibilidad está inequívocamente vencido sin interrupción ni subsistencia, propone denegar de oficio (Modelo KB03 §10.1). Si el cómputo, aceleración (automática vs. facultativa) o interrupción son dudosos, expón las fechas y envía a Vía con Duda.</li>
+        <li><strong>Competencia:</strong> La mera fijación de domicilio o lugar de pago no es prórroga exclusiva. Solo una cláusula exclusiva sin alternativa a favor de otro territorio permite proponer incompetencia.</li>
+      </ul>
+    </section>
+
+    <section id="kb02">
+      <h2>MÓDULO KB02: CÁLCULO DE PAGARÉS EN CUOTAS</h2>
+      <p>Se activa exclusivamente si el pagaré expresa pago en cuotas o calendario parcial. Omitir en vencimiento único.</p>
+      <ul>
+        <li><strong>Parámetros obligatorios:</strong> P (capital original), r (tasa mensual explícita en decimal), n (total cuotas), Q (cuota contractual), m (primera cuota impaga), k = m - 1, D (capital insoluto demandado).</li>
+        <li><strong>Desglose:</strong> Verifica si D es solo capital o mezcla capital e intereses sin desglosar (si falta desglose, califica como CONDICIONAL y envía a Vía con Duda).</li>
+        <li><strong>Base de Cobro (Base_Calc):</strong>
+          <ul>
+            <li><em>Caso A (Saldo total acelerado desde m hasta n):</em> q = n - m + 1. Si hay tabla documentada que reproduzca gracia o cuotas variables, toma el saldo de la tabla. Si es anualidad uniforme sin tabla: si m = 1, Bk = P; si m &gt; 1 y r &gt; 0, C = P*r/(1-(1+r)^(-n)) y Bk = P*(1+r)^k - C*((1+r)^k - 1)/r; si r = 0, Bk = P - k*(P/n).</li>
+            <li><em>Caso B (Solo cuotas específicas vencidas por calendario, sin acelerar):</em> q = cuotas vencidas demandadas. Base_Calc = capital amortizado contenido solo en esas cuotas vencidas.</li>
+          </ul>
+        </li>
+        <li><strong>Comparación (&Delta; = D - Base_Calc):</strong> Mostrar siempre <code>P=[monto] | r=[tasa] | n=[cuotas] | m=[impaga] | Base_Calc=[monto] | D=[demandado] | &Delta;=[diferencia y signo]</code>.
+          <ul>
+            <li>Si el cálculo es condicional (sin tabla exacta en estructura irregular o sin desglose): no afirmes sobrecobro; envía a Vía con Duda.</li>
+            <li>Si cuotas son variables sin tabla: compara |&Delta;| contra las cuotas pactadas sin elegir arbitrariamente una.</li>
+            <li>Si hay cuota uniforme Q (o tabla exacta) y bases homogéneas comprobadas: &Delta; = 0 (conforme); 0 &lt; |&Delta;| &lt; Q (registrar sin previo); <strong>&Delta; &gt; Q (obligatorio proponer previo de tercer día para aclarar monto y desglose, Modelo KB03 §4.5)</strong>; D &lt; Base_Calc (sin sobrecobro); |&Delta;| = Q (Vía con Duda).</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="kb03">
+      <h2>MÓDULO KB03: PLANTILLAS LITERALES DE RESOLUCIONES (SITCI) Y ENSAMBLAJE</h2>
+      <p>Regla de visado: Nunca entregues la resolución antes de recibir <strong>APROBAR</strong>. Tras aprobar, imprime exclusivamente la resolución y el bloque de cuantía sin saludos ni explicaciones.</p>
+
+      <h3>4. Modelos de Previo a Proveer</h3>
+      <p><strong>4.0.A Previo Consolidado (concurren defectos art. 254 N°1-3 CPC + otros defectos):</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Vistos los documentos acompañados y lo indicado en el libelo, previo a proveer, venga en forma la demanda debiendo la parte ejecutante: 1° [defecto art. 254 N°1-3 CPC], bajo apercibimiento de tener por no presentada la demanda conforme a los artículos 254 y 256 del Código de Procedimiento Civil; y 2° [demás aclaraciones o acreditaciones precisas], bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada. Cúmplase todo dentro de plazo único de tercer día.</p>
+
+      <p><strong>4.0.B Previo Consolidado (solo defectos fuera del art. 254 N°1-3 CPC):</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Vistos los documentos acompañados y lo indicado en el libelo, previo a proveer, venga en forma la demanda debiendo la parte ejecutante: 1° [primera aclaración o acreditación]; y 2° [segunda aclaración o acreditación]. Cúmplase dentro de tercero día, bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada.</p>
+
+      <p><strong>4.1 Defecto único Art. 254 N°1, N°2 o N°3 CPC:</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Vistos los documentos acompañados y lo indicado en el libelo, previo a proveer, atendido que [descripción breve de la omisión], corríjase o compleméntese la demanda señalando [dato faltante]. Cúmplase dentro de plazo único de tercer día, bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada de conformidad a lo dispuesto en los artículos 254 y 256 del Código de Procedimiento Civil.</p>
+
+      <p><strong>4.2 Defecto único Art. 254 N°4-5 CPC o general:</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Previo a proveer, atendido que [causa concreta], [corrección o acreditación precisa]. Cúmplase dentro de tercero día, bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada.</p>
+
+      <p><strong>4.3 Falta de facultades sustantivas:</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Previo a proveer, atendido que [antecedente concreto], aclárese dicha circunstancia y acompáñese, en su caso, el instrumento que acredite que don/doña [firmante] se encontraba facultado/a para suscribir el pagaré N.° [número] por [representado] a la fecha del acto. Cúmplase dentro de tercero día, bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada.</p>
+
+      <p><strong>4.4 Discordancia temporal notarial:</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Previo a proveer, atendido que del pagaré N.° [número] consta como fecha de suscripción el [fecha suscripción] y como fecha de autorización notarial de firma el [fecha autorización], siendo esta última anterior a su otorgamiento, aclárese dicha discordancia temporal y acompáñese, en su caso, el antecedente que corresponda. Cúmplase dentro de tercero día, bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada.</p>
+
+      <p><strong>4.5 Exceso comprobado en cuotas (&Delta; &gt; Q):</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Previo a proveer, atendido que el capital insoluto demandado ([monto D y moneda]) excede en más de una cuota contractual al saldo de capital calculado conforme a las cuotas pactadas e impagas del pagaré N.° [número] ([monto Base_Calc y moneda]), aclárese el monto exacto a demandar y su desglose. Cúmplase dentro de tercero día, bajo apercibimiento de no dar curso a la demanda y tenerla por no presentada.</p>
+
+      <h3>5. Cumplimiento de Previos Pendientes ("Cumple lo ordenado")</h3>
+      <p>Activar solo si existe un escrito pendiente respecto de un previo de admisibilidad o título (ignorar previos antiguos de poder judicial). Revisar cada punto ordenado y solo los controles afectados por lo nuevo. Prohibido inventar folio "0" (usar folio real o [INDICAR FOLIO]). No re-proveer otrosíes independientes ya resueltos.</p>
+      <p><strong>Si cumple:</strong><br>
+      <strong>Al escrito de folio [folio real]:</strong> Téngase por [aclarada / complementada / modificada la demanda en los términos señalados y por] cumplido lo ordenado.<br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Téngase por interpuesta demanda ejecutiva, despáchese mandamiento de ejecución y embargo.<br>
+      <strong>Al [ordinal real] otrosí:</strong> [Bienes y depositario pendiente].</p>
+
+      <p><strong>Si no cumple (hacer efectivo apercibimiento):</strong><br>
+      <strong>Al escrito de folio [folio real]:</strong> Atendido el mérito de autos y que la parte ejecutante no dio íntegro cumplimiento a lo ordenado mediante resolución de folio [folio previo / fecha], hágase efectivo el apercibimiento decretado [de conformidad con el artículo 256 del Código de Procedimiento Civil] y, en consecuencia, no ha lugar a dar curso a la demanda, teniéndose por no presentada [para todos los efectos legales].</p>
+
+      <h3>7 y 8. Plantillas de Otrosíes y Cierre Literal Art. 49 CPC</h3>
+      <ul>
+        <li><strong>Bienes con previo en lo principal:</strong> <strong>Al [ordinal real] otrosí:</strong> Estese a lo que se resolverá una vez cumplido lo ordenado en lo principal.</li>
+        <li><strong>Bienes genéricos (al dar curso):</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase presente. Sin perjuicio, para el caso que se quisieren embargar bienes inmuebles o vehículos motorizados, deberá previamente señalarlo al tribunal y acompañar los instrumentos que den cuenta del dominio del mismo por parte de la parte ejecutada y su respectiva tasación. En cualquier caso, para proceder al embargo propiamente tal, cualquiera sea el bien a embargar, debe previamente encontrarse la parte ejecutada notificada y requerida de pago. Téngase presente el depositario provisional, bajo su responsabilidad civil y penal.</li>
+        <li><strong>Vehículo específico (al dar curso):</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase presente salvo el vehículo señalado. [Si faltan ambos: Para el caso que se quisieren embargar bienes inmuebles o vehículos motorizados, como el indicado, deberá previamente señalarlo al tribunal y acompañar los instrumentos que den cuenta del dominio del mismo por parte del ejecutado y su respectiva tasación. / Si falta solo uno: Para proceder a la traba del embargo sobre dicho vehículo motorizado, deberá previamente acompañar (su respectiva tasación vigente / el certificado de anotaciones vigentes que acredite el dominio por parte del ejecutado).] En cualquier caso, para proceder al embargo propiamente tal, cualquiera sea el bien a embargar, debe previamente encontrarse la parte ejecutada notificada y requerida de pago. Téngase presente el depositario provisional, bajo su responsabilidad civil y penal.</li>
+        <li><strong>Pagaré + otros documentos:</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase por acompañado el pagaré, custódiese. En lo demás, ténganse por acompañados los documentos bajo apercibimiento legal [y la personería con citación].</li>
+        <li><strong>Solo pagaré (sin otros documentos):</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase por acompañado el pagaré, custódiese.</li>
+        <li><strong>Personería:</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase presente y por acompañada la personería con citación.</li>
+        <li><strong>Patrocinio y poder:</strong> <strong>Al [ordinal real] otrosí:</strong> Al patrocinio y poder, téngase presente.</li>
+        <li><strong>Delegación:</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase presente la delegación de poder.</li>
+        <li><strong>Domicilio físico:</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase presente el domicilio señalado.</li>
+        <li><strong>Correo electrónico (LITERAL):</strong> <strong>Al [ordinal real] otrosí:</strong> Téngase presente el correo electrónico señalado. Hágase presente a la parte que es de su cargo verificar que dicha dirección se encuentre correctamente incorporada al sistema de tramitación electrónica y comunicar oportunamente cualquier rectificación o cambio. Conforme al artículo 49 del Código de Procedimiento Civil, el medio electrónico designado subsiste mientras no se señale otro. Los errores en los datos que proporcione y la omisión de comunicar sus cambios serán de su responsabilidad.</li>
+        <li><strong>Exhorto:</strong> <strong>Al [ordinal real] otrosí:</strong> Como se pide, exhórtese al Juzgado de Letras en lo Civil de turno de [comuna/territorio], facultándose al receptor judicial para practicar las diligencias ordenadas en autos.</li>
+        <li><strong>Acta 71-2016 / Art. 44 anticipado:</strong> <strong>Al [ordinal real] otrosí:</strong> No ha lugar por innecesario.</li>
+      </ul>
+
+      <p><strong>Cierre Obligatorio Art. 49 CPC (copiar carácter por carácter al final de todo despacho que dé curso total/parcial, decrete previo o resuelva cumplimiento; omitir en denegaciones totales):</strong><br>
+      Dese cumplimiento a lo dispuesto en el artículo 49 del Código de Procedimiento Civil, en cuanto a fijar domicilio en el radio urbano del tribunal, si no lo hubiese ya designado. De no cumplir con lo ordenado, téngaseles por apercibidos desde ya, notificándoseles todas las resoluciones que en adelante se dicten por el estado diario, mientras no hagan tal designación y sin perjuicio de lo dispuesto en el artículo 47 del Código de Procedimiento Civil.</p>
+
+      <h3>9. Modelos de Dar Curso (Total y Parcial)</h3>
+      <p><strong>9.1 Dar curso total:</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Téngase por interpuesta demanda ejecutiva, despáchese mandamiento de ejecución y embargo.<br>
+      [Otrosíes en su orden real + Cierre Art. 49 CPC]</p>
+
+      <p><strong>9.2 Despacho parcial (Suscriptor autorizado, avalista/codeudor sin autorización notarial ni protesto):</strong><br>
+      <strong>A la demanda:</strong><br>
+      <strong>A lo principal:</strong> Téngase por interpuesta demanda ejecutiva respecto del ejecutado don/doña [nombre suscriptor], despáchese mandamiento de ejecución y embargo en su contra. En cuanto al demandado don/doña [nombre avalista/codeudor], atendido que su firma en el pagaré acompañado no se encuentra autorizada por Notario Público ni consta protesto personal que le confiera mérito ejecutivo conforme al artículo 434 N.° 4 del Código de Procedimiento Civil, no ha lugar a despachar mandamiento de ejecución y embargo a su respecto.<br>
+      [Otrosíes en su orden real + Cierre Art. 49 CPC]</p>
+
+      <h3>10. Modelos de Denegación Total (Sin Cierre Art. 49 CPC)</h3>
+      <ul>
+        <li><strong>10.1 Prescripción manifiesta (Art. 442 CPC vigente):</strong> <strong>A la demanda:</strong> <strong>A lo principal:</strong> Atendido que del título acompañado aparece que la acción ejecutiva se encuentra prescrita sin que conste interrupción ni subsistencia de la misma, de conformidad con lo dispuesto en el artículo 442 del Código de Procedimiento Civil y artículos 98 y 107 de la Ley N.° 18.092, no ha lugar a despachar mandamiento de ejecución y embargo. <strong>Al [ordinal] otrosí:</strong> Al patrocinio y poder, téngase presente. En cuanto a los demás otrosíes, estese a lo resuelto en lo principal.</li>
+        <li><strong>10.2 Incompetencia territorial exclusiva:</strong> <strong>A la demanda:</strong> <strong>A lo principal:</strong> Atendido que las partes se sometieron expresamente y sin alternativa a la competencia de los tribunales de [territorio], no ha lugar a dar curso a la demanda ante este tribunal. <strong>Al [ordinal] otrosí:</strong> Al patrocinio y poder, téngase presente. En cuanto a los demás otrosíes, estese a lo resuelto en lo principal.</li>
+        <li><strong>10.3 Ejecutado distinto:</strong> <strong>A la demanda:</strong> <strong>A lo principal:</strong> Atendido que la persona demandada no corresponde a la obligada según el pagaré acompañado, y no constando representación, aval, sucesión u otra calidad que permita dirigir la ejecución en su contra, no ha lugar a despachar mandamiento de ejecución y embargo. <strong>Al [ordinal] otrosí:</strong> Al patrocinio y poder, téngase presente. En cuanto a los demás otrosíes, estese a lo resuelto en lo principal.</li>
+        <li><strong>10.4 Sin autorización notarial ni protesto personal:</strong> <strong>A la demanda:</strong> <strong>A lo principal:</strong> Atendido que el pagaré acompañado materialmente al tribunal no se encuentra autorizado por Notario Público ni consta protesto personal que le confiera mérito ejecutivo conforme al artículo 434 N.° 4 del Código de Procedimiento Civil, no ha lugar a despachar mandamiento de ejecución y embargo, teniéndose por no iniciada la ejecución. <strong>Al [ordinal] otrosí:</strong> Al patrocinio y poder, téngase presente. En cuanto a los demás otrosíes, estese a lo resuelto en lo principal.</li>
+      </ul>
+
+      <h3>11. Bloque Final de Cuantía</h3>
+      <p>---<br>
+      <strong>DATOS PARA EL SISTEMA (NO COPIAR EN LA RESOLUCIÓN):</strong><br>
+      - <strong>Cuantía:</strong> [Monto numérico y moneda exacta]<br>
+      - <strong>Ejecutado(s):</strong> [Nombre completo y RUT; si es sociedad, indica aparte representante legal]<br>
+      - <strong>Codeudor solidario / Avalista (si consta y se despacha):</strong> [Nombre completo y RUT]</p>
+    </section>
+  </main>
+</body>
+</html>
